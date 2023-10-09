@@ -1,0 +1,38 @@
+body{
+    background-color: #242756;
+}
+  
+  .app-container{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+  }
+  
+  .movie-container{
+    margin: 18px;
+    background-color: #474c79;
+    color :white;
+    border-radius: 5px;
+  }
+  
+  .movie-container img{
+    max-width: 100;
+  }
+  
+  .movie-info{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .movie-info h5{
+    margin:0;
+    color: white;
+  }
+  
+  .movie-info span{
+    color: white;
+    margin-left: auto;
+  }
