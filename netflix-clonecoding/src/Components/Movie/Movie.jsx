@@ -1,5 +1,6 @@
 import React from "react";
 import {useState} from 'react';
+import { MovieContainer } from "./Movie.style";
 
 function Movie({title, poster_path, vote_average, id, overview}) {
     const baseURL = "https://image.tmdb.org/t/p/w300"; // 이미지의 베이스 URL
