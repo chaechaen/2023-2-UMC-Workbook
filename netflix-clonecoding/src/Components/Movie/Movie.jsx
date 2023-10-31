@@ -9,17 +9,17 @@ function Movie({title, poster_path, vote_average, id, overview}) {
 
     return (
       <div
-      className='movie-container'
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}>
-        <img src={posterURL} alt={title} />
-        {isHovered && (
-          <div className="hover-info">
-            <h5>{title}</h5>
-            <span>{overview}</span>
-            <p>{id}</p>
-          </div>
-        )}
+        className='movie-container'
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}>
+          <img src={posterURL} alt={title} />
+          {isHovered && (
+            <div className="hover-info">
+              <h5>{title}</h5>
+              <span>{overview}</span>
+              <p>{id}</p>
+            </div>
+          )}
 
         {!isHovered && (
           <div className="movie-info">
