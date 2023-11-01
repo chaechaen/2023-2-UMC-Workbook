@@ -38,6 +38,32 @@ export const MovieInfoSpan = styled.span`
     margin-left: auto;
 `;
 
-export default{
-    Body, AppContainer, MovieContainer, MovieContainerImg, MovieInfo, MovieInfoH5, MovieInfoSpan,
-};
+export const HoverInfo = styled.div`
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+`
+
+export const HoverInfoH5 = styled.h5`
+    color: white;
+    margin: 5px;
+`
+export const HoverInfoSpan = styled.span`
+    color: white;
+    margin: 5px;
+`
+
+export const HoverInfoP = styled.p`
+    color: white;
+    margin: 5px;
+`
